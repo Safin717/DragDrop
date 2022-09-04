@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Отслеживание заказа</title>
+</head>
+<body>
+    <div>
+        <h2>Статус выполнения заказа</h2>
+        <div class= "row">
+            <div class = "col-header start">Отгружен со склада</div>
+            <div class = "col-header progress">Передан в доставку</div>
+            <div class = "col-header delivery">Доставка</div>
+            <div class = "col-header done">Доставлен</div>
+        </div>
+        
+        <div class = "row">
+            <div class = "placeholder">
+                <div class ="item" draggable="true">Состояние заказа</div>
+            </div>
+            <div class = "placeholder"></div>
+            <div class = "placeholder"></div>
+            <div class = "placeholder"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>        
+</body>
+</html>
